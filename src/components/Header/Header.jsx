@@ -8,7 +8,6 @@ export function Header() {
 
             <div className='menu'>
                 <Menu />
-                <p className='text-menu'>Menu</p>
             </div>
 
 

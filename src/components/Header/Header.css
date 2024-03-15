@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--whiteColor);
+    position: fixed;
     background-color: var(--black2Color);
 }
 
@@ -18,11 +19,6 @@
     cursor: pointer;
 }
 
-.text-menu{
-    text-transform: uppercase;
-    margin-left: 3px; 
-    font-size: 18px;
-}
 
 .conta{
     font-size: 18px;
