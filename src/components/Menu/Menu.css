@@ -1,0 +1,7 @@
+@import '../../Colors/Colors.css';
+
+.icone-menu{
+    font-size: 40px;
+    cursor: pointer;
+    margin: 0px 5px;
+}

@@ -1,0 +1,30 @@
+@import '../../Colors/Colors.css';
+
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--whiteColor);
+    background-color: var(--black2Color);
+}
+
+.menu, .conta{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    height: inherit;
+    cursor: pointer;
+}
+
+.text-menu{
+    text-transform: uppercase;
+    margin-left: 3px; 
+    font-size: 18px;
+}
+
+.conta{
+    font-size: 18px;
+    margin-right: 3px;
+}

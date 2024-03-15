@@ -1,0 +1,7 @@
+@import '../../Colors/Colors.css';
+
+.icone-conta{
+    font-size: 30px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
