@@ -21,7 +21,6 @@ export function Header() {
 
             <div className='conta'>
                 <Conta />
-                <p className='text-conta'>Entre ou Cadastre-se</p>
             </div>
 
 

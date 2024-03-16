@@ -23,15 +23,15 @@
     background-color: var(--black2Color);
     position: absolute;
     left: 0;
-    top: 40px;
-    width: 300px;
+    top: 50px;
+    width: 400px;
     height: calc(100vh - 50px);
     overflow-y: scroll;
 
 }
 
 .menu-area ul{
-    padding: 15px;
+    padding: 20px 10px;
     list-style: none;
 }
 
@@ -40,12 +40,12 @@
     height: 50px;
     align-items: center;
     display: flex;
-    border-bottom: 0.5px solid var(--gray);
+    border-bottom: 0.5px solid var(--gray1);
     font-weight: bolder;
 }
 
 .menu-area ul li:hover{
-    background-color: var(--gray);
+    background-color: var(--gray1);
     color: var(--black2Color);
 }   
 
