@@ -1,0 +1,81 @@
+@import '../../Colors/Colors.css';
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+.containerCar {
+    width: 400px;
+    height: auto;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--gray1);
+}
+
+.containerCar > .imageCar{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.containerCar > .titleCar{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: var(--font-descCar);
+    margin-bottom: 2px;
+    color: var(--black3Color);
+}
+
+.containerCar > .descriptionCar{
+    color: red;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.containerCar > .priceCar{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 5px 0px;
+    color: var(--black2Color);
+}
+
+.containerCar > .buttonsArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.containerCar .button{
+    width: 60%;
+    height: 40px;
+    cursor: pointer;
+    color: var(--whiteColor);
+    border: none;
+    margin: 10px
+
+}
+
+.containerCar > .buttonsArea > #Eq{
+    background-color: var(--redColor);   
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.containerCar > .buttonsArea > #wpp{
+    background-color: var(--green2Color);   
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
