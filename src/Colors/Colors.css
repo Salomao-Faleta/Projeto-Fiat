@@ -1,4 +1,13 @@
+/* --font-titleCar */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+/* --font-descCar */
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
 :root{
+
+    /* Colors */
+
     --redColor: #FF1430;
     --whiteColor: #FFF;
     --greenColor: #268F52;
@@ -9,5 +18,12 @@
     --gray1: #DDD;
     --gray2: #EDEDE4;
     --blueClor: #32579E;
+
+
+    /* FONTS */
+
+    --font-titleCar: "Kode Mono", monospace;
+    --font-descCar: "Truculenta", sans-serif;
+
     
 }
