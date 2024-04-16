@@ -45,6 +45,37 @@ export const listOfCars = [
         name: 'DUCATO CARGO 11,5M 2023/2024',
         description: '2300 MANUAL DIESEL',
         price: "218.231,20"
+    },
+    {
+        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/358/agp/1/2024/page/profile-webp/profile-806.webp",
+        name: 'ARGO TREKKING 1.3 AT FLEX 4P 2024 - 2024/2024',
+        description: '1.3 AUTOMÁTICO FLEX 4P',
+        price: "96.900,00"
+    },
+    {
+        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/358/agp/1/2024/page/profile-webp/profile-806.webp",
+        name: 'ARGO DRIVE 1.3 AT FLEX 4P 2024 - 2024/2024',
+        description: '1.3 AUTOMÁTICO FLEX 4P',
+        price: "79.092,48",
+        especial: true
+    },
+    {
+        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/295/ghb/7/2024/page/profile-webp/profile-549.webp",
+        name: 'DUCATO MULTI 13M 2023/2024',
+        description: '2300 MANUAL DIESEL',
+        price: "221.751,20",
+    },
+    {
+        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/265/1pd/1/2024/page/profile-webp/profile-249.webp",
+        name: 'FIORINO ENDURANCE 1.4 FLEX 2024 - 2024/2024',
+        description: '1400 MANUAL FLEX',
+        price: "105.900,00",
+    },
+    {
+        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/376/a37/0/2023/page/profile-png/profile-663.png",
+        name: 'FASTBACK LIMITED EDITION TURBO 270 FLEX AT 2023/2023',
+        description: 'T270 AUTOMÁTICO FLEX 5P',
+        price: "146.900,00",
     }
 
 

@@ -89,7 +89,7 @@
     }
 
 
-    .containerCar> .titleCar {
+    .containerCar>.titleCar {
         font-size: 20px;
     }
 }
@@ -97,5 +97,9 @@
 @media (width >=1024px) {
     .container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .containerCar {
+        max-width: 400px;
     }
 }
