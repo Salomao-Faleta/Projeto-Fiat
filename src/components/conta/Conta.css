@@ -1,20 +1,24 @@
 @import '../../Colors/Colors.css';
 
-.conta-icone{
+.conta-icone {
     display: flex;
     margin: 0px 5px;
     align-items: center;
 }
 
-.icone-conta{
+.icone-conta {
     font-size: 30px;
     margin: 0px 5px;
     cursor: pointer;
 }
 
-.conta-area{
-    width: 30%;
-    height: 100vh;
+.text-conta {
+    display: none;
+}
+
+.conta-area {
+    width: 100%;
+    height: 107vh;
     background-color: var(--gray1);
     position: absolute;
     top: 50px;
@@ -22,9 +26,10 @@
     display: flex;
     flex-direction: column;
     cursor: auto;
+    overflow: hidden;
 }
 
-.close{
+.close {
     color: var(--redColor);
     position: fixed;
     top: 50;
@@ -33,7 +38,7 @@
     cursor: pointer;
 }
 
-.titulo{
+.titulo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,29 +47,29 @@
     font-size: 45px;
 }
 
-.infos{
+.infos {
     color: var(--black2Color);
     text-align: center;
     margin-top: 50px;
 }
 
-.infos > p{
+.infos>p {
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.infos ul{
+.infos ul {
     list-style: none;
     margin-top: 10px;
 }
 
-.infos ul li{
+.infos ul li {
     margin: 20px 0px;
-    font-weight: 400;   
+    font-weight: 400;
 }
 
-.login{
+.login {
     width: 100%;
     padding: 5px;
     display: flex;
@@ -74,7 +79,7 @@
 }
 
 
-.lg{
+.lg {
     width: 80%;
     height: 30px;
     margin: 10px;
@@ -84,18 +89,24 @@
     border-radius: 10px;
 }
 
-.google{
+.google {
     background-color: var(--whiteColor);
     color: var(--black2Color);
 }
 
-.facebook{
+.facebook {
     background-color: var(--blueClor);
     color: var(--whiteColor);
-   
+
 }
 
-.email{
+.email {
     background-color: var(--black2Color);
     color: var(--whiteColor);
+}
+
+@media(width >= 600px) {
+    .text-conta {
+        display: block;
+    }
 }

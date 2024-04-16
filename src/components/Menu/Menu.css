@@ -17,6 +17,7 @@
     text-transform: uppercase;
     margin-left: 3px; 
     font-size: 18px;
+    display: none;
 }
 
 .menu-area{
@@ -25,7 +26,8 @@
     left: 0;
     top: 50px;
     width: 400px;
-    height: calc(100vh - 50px);
+    height: 107vh;
+    /* height: calc(100vh - 50px); */
     overflow-y: scroll;
 
 }
@@ -66,4 +68,12 @@
 
 .infors a:hover{
     text-decoration: underline;
+}
+
+
+
+@media(width >= 600px) {
+    .text-menu {
+        display: block;
+    }
 }
