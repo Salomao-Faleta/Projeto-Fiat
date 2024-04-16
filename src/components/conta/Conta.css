@@ -42,15 +42,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 15px;
     color: var(--black2Color);
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .infos {
     color: var(--black2Color);
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .infos>p {
@@ -105,8 +105,31 @@
     color: var(--whiteColor);
 }
 
-@media(width >= 600px) {
+@media(width >=600px) {
     .text-conta {
         display: block;
     }
+}
+
+/* PARA TABLETS */
+@media (width >=768px) {
+    .titulo {
+        margin-top: 30px;
+        font-size: 35px;
+    }
+}
+
+/* PARA LEPTOPS */
+@media(width >= 1024px){
+    .conta-area{
+        width: 40%;
+        height: 100vh;
+    }
+
+    .titulo{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+   
 }
