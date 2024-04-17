@@ -1,0 +1,33 @@
+@import '../../Colors/Colors.css';
+
+.container-images{
+    background-color: var(--begeColor);
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+}
+
+.container-image{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.container-images .banner{
+    width: 100%;
+    height: auto;
+}
+
+/* PARA TABLET E TELAS GRANDES */
+@media(width >= 768px){
+    .container-images{
+        flex-direction: row;
+        padding: 15px;
+    }
+
+    .container-image{
+        margin: 10px;
+    }
+}

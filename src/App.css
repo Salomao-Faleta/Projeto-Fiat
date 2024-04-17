@@ -4,5 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--whiteColor);
+    /* background-color: var(--whiteColor); */
+    background-color: #EDEDE3;
 }
