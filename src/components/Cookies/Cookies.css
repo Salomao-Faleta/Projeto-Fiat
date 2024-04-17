@@ -1,0 +1,52 @@
+@import '../../Colors/Colors.css';
+
+.container-cookie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--tarjaCookies);
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+}
+
+.container-text-cookie {
+    flex: 7;
+    line-height: 25px;
+    color: var(--whiteColor);
+}
+
+.container-text-cookie a {
+    color: var(--whiteColor);
+}
+
+
+.container-button-cookie {
+    padding: 20px 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button-cookie .button-ok {
+    text-transform: uppercase;
+    color: var(--whiteColor);
+    background-color: var(--redColor);
+    padding: 20px 10px;
+    border: 0px;
+    width: 140px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+@media (width >=425px) {
+    .container-cookie {
+        flex-direction: row;
+    }
+
+}

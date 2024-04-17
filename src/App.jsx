@@ -1,5 +1,6 @@
 import './App.css';
 import { Cars } from './components/Cars/Cars';
+import { Cookies } from './components/Cookies/Cookies';
 import { Header } from './components/Header/Header';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
             <Header/>
 
             <Cars/>
+
+            <Cookies/>
         </div>
        
 

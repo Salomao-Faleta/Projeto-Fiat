@@ -18,8 +18,8 @@ export function Cars() {
 
 
                         <div className='buttonsArea'>
-                            <button className='button' id='Eq'>Eu quero</button>
-                            <button className='button' id='wpp'>Negócie por whastApp</button>
+                            <a href="#" className='button' id='Eq'>Eu quero</a>
+                            <a href="https://api.whatsapp.com/send?phone=553121236000&text=Ol%C3%A1,%20tenho%20interesse%20na%20Oferta%20365102%20Protocolo" target='_blank' className='button' id='wpp'>Negócie por whastApp</a>
                         </div>
                     </div>
 
