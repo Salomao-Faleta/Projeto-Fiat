@@ -4,7 +4,10 @@
 /* --font-descCar */
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
-:root{
+/* --font-section3-title */
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+
+:root {
 
     /* Colors */
 
@@ -26,6 +29,7 @@
 
     --font-titleCar: "Kode Mono", monospace;
     --font-descCar: "Truculenta", sans-serif;
+    --tac-one-regular: "Tac One", sans-serif;
 
-    
+
 }

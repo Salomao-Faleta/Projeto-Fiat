@@ -1,0 +1,42 @@
+@import '../../Colors/Colors.css';
+
+.grid-section3{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-section3 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 20px 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container-section3>.image-section3 {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.container-section3> .title-section3{
+    color: var(--redColor);
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: var(--tac-one-regular);
+}
+
+.container-section3> .description-section3{
+    color: var(--black3Color);
+    text-align: left;
+    line-height: 25px;
+}
