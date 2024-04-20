@@ -7,7 +7,7 @@ export function Cars() {
 
             {listOfCars.map((listOfCars) => (
                 <>
-                    <div className='containerCar'>
+                    <div key={listOfCars.id} className='containerCar'>
                         <img className='imageCar' src={listOfCars.image}/>
 
                         <h1 className='titleCar'>{listOfCars.name}</h1>
