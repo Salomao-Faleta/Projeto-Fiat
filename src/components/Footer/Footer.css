@@ -1,0 +1,40 @@
+@import '../../Colors/Colors.css';
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-footer > .container-svg{
+    width: 40%;
+    height: 40%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.container-svg .svg-footer{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.container-listItens{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+    flex: 2;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.container-listItens li{
+    list-style: none;
+}
+
+.container-listItens a{
+    text-decoration: none;
+    color: var(--black3Color);
+}
