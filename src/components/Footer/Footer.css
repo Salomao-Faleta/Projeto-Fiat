@@ -1,12 +1,13 @@
 @import '../../Colors/Colors.css';
 
-.container-footer{
+.container-footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.container-footer > .container-svg{
+.container-footer>.container-svg {
     width: 40%;
     height: 40%;
     flex: 1;
@@ -14,27 +15,50 @@
     justify-content: center;
 }
 
-.container-svg .svg-footer{
+.container-svg .svg-footer {
     width: inherit;
     height: inherit;
     object-fit: cover;
 }
 
-.container-listItens{
+.container-listItens {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    flex-direction: column;
+    margin: 2 0px;
     padding: 20px;
     flex: 2;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 25px;
 }
 
-.container-listItens li{
-    list-style: none;
+.container-listItens ul {
+    text-align: center;
 }
 
-.container-listItens a{
+.container-listItens li {
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.container-listItens a {
     text-decoration: none;
     color: var(--black3Color);
+}
+
+@media(width >=768px) {
+    .container-footer {
+        flex-direction: row;
+    }
+
+    .container-listItens{
+        flex-direction: row;
+        font-size: 15px;
+    }
+}
+
+@media (width >= 1024px){
+    .container-listItens{
+        font-size: 12px;
+    }
 }
