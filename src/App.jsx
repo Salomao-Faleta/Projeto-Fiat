@@ -5,6 +5,7 @@ import { Section4 } from './Sections/Section4/OfertaFiat';
 import { Cars } from './components/Cars/Cars';
 import { Cookies } from './components/Cookies/Cookies';
 import { Footer } from './components/Footer/Footer';
+import { FooterSub } from './components/FooterSub/FooterSub';
 import { Header } from './components/Header/Header';
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
             <Section4/>
 
             <Footer/>
+
+            <FooterSub/>
 
             <Cookies/>
         </div>

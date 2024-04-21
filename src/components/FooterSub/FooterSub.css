@@ -1,0 +1,66 @@
+@import '../../Colors/Colors.css';
+
+.container-footerSub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 80vw;
+    margin: auto;
+}
+
+.container-footerSub>div {
+    margin: 20px;
+}
+
+.direitos-text {
+    font-size: 11px;
+    color: var(--black3Color);
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+}
+
+.redes-sociais p {
+    font-size: 11px;
+    margin: 10px 0px;
+    color: var(--black3Color);
+}
+
+.redes-sociais .icone {
+    color: var(--black2Color);
+    margin: 0px 5px;
+    font-size: 25px;
+}
+
+.button button {
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+@media (width >=768px) {
+    .container-footerSub {
+        flex-direction: row;
+    }
+}
+
+@media (width >=1024px) {
+    .redes-sociais {
+        flex-direction:row;
+    }
+}
