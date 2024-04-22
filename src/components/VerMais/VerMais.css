@@ -1,0 +1,21 @@
+@import '../../Colors/Colors.css';
+
+.VerMais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.VerMais button{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: var(--redColor);
+    font-size: 18px;
+    color: var(--whiteColor);
+    text-transform: uppercase;
+}

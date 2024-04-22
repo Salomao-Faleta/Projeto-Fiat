@@ -76,6 +76,13 @@ export const listOfCars = [
         name: 'FASTBACK LIMITED EDITION TURBO 270 FLEX AT 2023/2023',
         description: 'T270 AUTOMÁTICO FLEX 5P',
         price: "146.900,00",
+    },
+    {
+        id: 12,
+        image: "https://cronos.fiat.com.br/images/Versions/cronos-1.0-drive@2x.webp",
+        name: 'Cronos',
+        description: 'Drive 1.0 Manual',
+        price: "87.900,00",
     }
 
 ]

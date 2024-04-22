@@ -7,6 +7,7 @@ import { Cookies } from './components/Cookies/Cookies';
 import { Footer } from './components/Footer/Footer';
 import { FooterSub } from './components/FooterSub/FooterSub';
 import { Header } from './components/Header/Header';
+import { VerMais } from './components/VerMais/VerMais';
 
 function App() {
     return (
@@ -14,6 +15,8 @@ function App() {
             <Header/>
 
             <Cars/>
+
+            <VerMais/>
 
             {/* Carrosel de carros */}
             {/* <Section1/> */}
