@@ -1,10 +1,10 @@
-export const listOfCars = [
+export const listOfSomeCars = [
     {
-        id: 1,
-        image: 'https://ofertas.fiat.com.br/content/dam/fiat/products/376/a11/0/2024/page/profile-webp/profile-806.webp',
-        name: 'FASTBACK AUDACE TURBO 200 FLEX AT 2024 2024/2024',
-        description: 'T200 AUTOMÁTICO FLEX 5P',
-        price:  "135.990,00"
+        // id: 1,
+        // image: 'https://ofertas.fiat.com.br/content/dam/fiat/products/376/a11/0/2024/page/profile-webp/profile-806.webp',
+        // name: 'FASTBACK AUDACE TURBO 200 FLEX AT 2024 2024/2024',
+        // description: 'T200 AUTOMÁTICO FLEX 5P',
+        // price:  "135.990,00"
     },
     {
         id: 2,
@@ -14,11 +14,11 @@ export const listOfCars = [
         price: "181.041,50"
     },
     {
-        id: 3,
-        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/341/acs/0/2024/page/profile-webp/profile-806.webp",
-        name: 'MOBI LIKE 1.0 2024 2024/2024',
-        description: '1.0 MANUAL FLEX 4P',
-        price: "65.890,00"
+        // id: 3,
+        // image: "https://ofertas.fiat.com.br/content/dam/fiat/products/341/acs/0/2024/page/profile-webp/profile-806.webp",
+        // name: 'MOBI LIKE 1.0 2024 2024/2024',
+        // description: '1.0 MANUAL FLEX 4P',
+        // price: "65.890,00"
     },
     {
         id: 4,
@@ -35,11 +35,11 @@ export const listOfCars = [
         price: "139.990,00"
     },
     {
-        id: 6,
-        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/295/agb/7/2024/page/profile-webp/profile-549.webp",
-        name: 'DUCATO CARGO 11,5M 2023/2024',
-        description: '2300 MANUAL DIESEL',
-        price: "218.231,20"
+        // id: 6,
+        // image: "https://ofertas.fiat.com.br/content/dam/fiat/products/295/agb/7/2024/page/profile-webp/profile-549.webp",
+        // name: 'DUCATO CARGO 11,5M 2023/2024',
+        // description: '2300 MANUAL DIESEL',
+        // price: "218.231,20"
     },
     {
         id: 7,
@@ -64,11 +64,11 @@ export const listOfCars = [
         price: "221.751,20",
     },
     {
-        id: 10,
-        image: "https://ofertas.fiat.com.br/content/dam/fiat/products/265/1pd/1/2024/page/profile-webp/profile-249.webp",
-        name: 'FIORINO ENDURANCE 1.4 FLEX 2024 - 2024/2024',
-        description: '1400 MANUAL FLEX',
-        price: "105.900,00",
+        // id: 10,
+        // image: "https://ofertas.fiat.com.br/content/dam/fiat/products/265/1pd/1/2024/page/profile-webp/profile-249.webp",
+        // name: 'FIORINO ENDURANCE 1.4 FLEX 2024 - 2024/2024',
+        // description: '1400 MANUAL FLEX',
+        // price: "105.900,00",
     },
     {
         id: 11,
@@ -76,14 +76,14 @@ export const listOfCars = [
         name: 'FASTBACK LIMITED EDITION TURBO 270 FLEX AT 2023/2023',
         description: 'T270 AUTOMÁTICO FLEX 5P',
         price: "146.900,00",
-    },
-    {
-        id: 12,
-        image: "https://cronos.fiat.com.br/images/Versions/cronos-1.0-drive@2x.webp",
-        name: 'Cronos',
-        description: 'Drive 1.0 Manual',
-        price: "87.900,00",
     }
+    // {
+    //     id: 12,
+    //     image: "https://cronos.fiat.com.br/images/Versions/cronos-1.0-drive@2x.webp",
+    //     name: 'Cronos',
+    //     description: 'Drive 1.0 Manual',
+    //     price: "87.900,00",
+    // }
 
 ]
 
